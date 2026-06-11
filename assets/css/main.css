@@ -4687,3 +4687,29 @@ input, select, textarea {
 		}
 
 	}
+/* Intro Background Image */
+
+#intro {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 10rem 4rem 8rem 4rem;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.45)
+        ),
+        url("../../images/BlackScales.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Make intro text white */
+
+#intro h1,
+#intro p {
+    color: white;
+}
