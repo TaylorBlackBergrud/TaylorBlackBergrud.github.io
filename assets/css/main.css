@@ -3606,6 +3606,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
+		position: relative;
 		color: #ffffff;
 		display: -moz-flex;
 		display: -webkit-flex;
