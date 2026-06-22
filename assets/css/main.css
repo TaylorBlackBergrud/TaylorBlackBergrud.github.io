@@ -4714,37 +4714,4 @@ input, select, textarea {
 #intro p {
     color: white;
 }
-/* Language Switcher */
 
-.language-switcher {
-    position: absolute;
-    top: 0;
-    right: 2rem;
-    height: 4rem;
-
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    z-index: 1000;
-}
-
-.language-switcher a {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-
-    border-bottom: none;
-    text-decoration: none;
-
-    color: inherit;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-}
-
-.language-switcher img {
-    width: 20px;
-    height: auto;
-    display: block;
-}
